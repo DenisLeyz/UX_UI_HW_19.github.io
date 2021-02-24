@@ -65,7 +65,7 @@ img#homes {max-width: 150%;height: auto;object-fit: cover;overflow: hidden;float
 .projectHomes {display: grid;grid-template-columns: 1fr 1fr;grid-area: projectHImage projectHBody;background-color: rgba(188, 207, 236, 75%);min-height: 1000px;}
 .projectHBody {display:flex;flex-direction: column; width:auto;justify-content: center;width: 49%;padding-left: 1%;}
 
-.projectHImage {background-image: url(../images/homesFirstImage.png);background-size: 130% auto;background-repeat: no-repeat;background-position-x: 100%;background-position-y: 50%;max-height: 100%;}
+.projectHImage {background-image: url(../images/homesFirstImage.png);background-size: 130% auto;background-repeat: no-repeat;background-position-x: 400%;background-position-y: 50%;max-height: 100%;}
 
 #homesH1{padding:10px; font-family: 'Oswald',sans-serif;font-size: 52px;}
 #homesH2{padding:10px;font-family: 'Oswald',sans-serif;font-size: 32.5px;font-weight: 400;}
@@ -78,7 +78,7 @@ img#homes {max-width: 150%;height: auto;object-fit: cover;overflow: hidden;float
 .projectBeauty {display: grid;grid-template-columns: 1fr 1fr;grid-area:projectBBody projectBImage;background-color:rgba(180, 168, 213, 75%);min-height: 1000px;}
 .projectBBody {display:flex;flex-direction: column; width:auto;justify-content: center;align-items: right;margin-left:40%;width: 49%;padding-right: 1%;}
 
-.projectBImage {background-image: url(../images/beautyImage.png);background-size: 130% auto;background-repeat: no-repeat;background-position-x: 0;background-position-y: 50%;max-height: 100%;}
+.projectBImage {background-image: url(../images/beautyImage.png);background-size: 130% auto;background-repeat: no-repeat;background-position-x: -1000%;background-position-y: 50%;max-height: 100%;}
 
 #beautyH1{padding:10px; font-family: 'Oswald',sans-serif;font-size: 52px;}
 #beautyH2{padding:10px;font-family: 'Oswald',sans-serif;font-size: 32.5px;font-weight: 400;}
@@ -91,7 +91,7 @@ img#homes {max-width: 150%;height: auto;object-fit: cover;overflow: hidden;float
 .projectBeeL {display: grid;grid-template-columns: 1fr 1fr;grid-area: projectBLImage projectBLBody;background-color:rgba(253, 180, 44, 75%);min-height: 1000px;;}
 .projectBLBody {display:flex;flex-direction: column; width:auto;justify-content: center;width: 49%;padding-left: 1%;}
 
-.projectBLImage {background-image: url(../images/beeLocalImage.png);background-size: 80% auto;background-repeat: no-repeat;background-position-x: 100%;background-position-y: 50%;max-height: 100%;}
+.projectBLImage {background-image: url(../images/beeLocalImage.png);background-size: 80% auto;background-repeat: no-repeat;background-position-x: -1000%;background-position-y: 50%;max-height: 100%;}
 
 #beeLH1{padding:10px; font-family: 'Oswald',sans-serif;font-size: 52px;}
 #beeLH2{padding:10px;font-family: 'Oswald',sans-serif;font-size: 32.5px;font-weight: 400;}
@@ -188,6 +188,8 @@ button#resumeDownload:active {top:1px;border:none}
     h1#connect{padding: 0% 10% 0%;}
     nav {max-width: 77%;}
     .resume {display: none;height: 0px;}
+    h1.greeting {text-align: center;font-size: 27.5px;}
+    .heroImg{padding-left: 15%;padding-right: 15%;}
 }
 
 @media only screen and (max-width: 700px){
